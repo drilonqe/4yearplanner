@@ -1,0 +1,158 @@
+{
+  "courses": [
+    {
+      "id": "CSC-151",
+      "code": "CSC151",
+      "name": "Functional Prob Solving w/lab",
+      "credits": 4,
+      "prerequisites": ["NONE"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Introductory", "Multi-paradigm"]
+    },
+    {
+      "id": "CSC-161",
+      "code": "CSC161",
+      "name": "Imperative prob solving w/lab",
+      "credits": 4,
+      "prerequisites": ["CSC151"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Multi-paradigm"]
+    },
+    {
+      "id": "CSC-207",
+      "code": "CSC207",
+      "name": "Object-Oriented programming w/lad",
+      "credits": 4,
+      "prerequisites": ["CSC151", "CSC161"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Multi-paradigm"]
+    },
+    {
+      "id": "CSC-208",
+      "code": "CSC208",
+      "name": "Discrete Structures",
+      "credits": 4,
+      "prerequisites": ["CSC151"],
+      "corequisites": ["CSC161"],
+      "offered": ["Spring"],
+      "level": ["Mathematical Foundations"]
+
+    },
+    {
+      "id": "CSC-211",
+      "code": "CSC211",
+      "name": "Computer Organization and Architecture",
+      "credits": 4,
+      "prerequisites": ["CSC161"],
+      "offered": ["Spring"],
+      "level": ["Systems"]
+    },
+    {
+      "id": "CSC-213",
+      "code": "CSC213",
+      "name": "Operaating Systems and parallel Algorithms",
+      "credits": 4,
+      "prerequisites": ["CSC161"],
+      "offered": ["Fall"],
+      "level": ["Systems"]
+    },
+    {
+      "id": "CSC-281",
+      "code": "CSC281",
+      "name": "Learning from CS Alumni",
+      "credits": 1,
+      "prerequisites": ["CSC151"],
+      "offered": ["Fall"],
+      "level": ["Mentorship"]
+    },{
+      "id": "CSC-282",
+      "code": "CSC282",
+      "name": "Thinking in C and Unix",
+      "credits": 1,
+      "prerequisites": ["CSC161"],
+      "offered": ["Spring"],
+      "level": ["Mentorship"]
+    },
+    {
+      "id": "CSC-301",
+      "code": "CSC301",
+      "name": "Algorithms and Complexity",
+      "credits": 4,
+      "prerequisites": ["CSC207"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Upper-level Theory"]
+    },
+    {
+      "id": "CSC-341",
+      "code": "CSC341",
+      "name": "Automata, Formal Languages, and Computational Complexity",
+      "credits": 4,
+      "prerequisites": ["CSC207"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Upper-level Theory"]
+    },
+    {
+      "id": "CSC-324",
+      "code": "CSC324",
+      "name": "Software Development w/lab",
+      "credits": 4,
+      "prerequisites": ["CSC207"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Software Development"]
+    },
+    {
+      "id": "CSC-326",
+      "code": "CSC326",
+      "name": "Software Dev Leadership w/lab",
+      "credits": 2,
+      "prerequisites": ["CSC324"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Electives"]
+    },
+    {
+      "id": "MAT-131",
+      "code": "MAT131",
+      "name": "Calculus I",
+      "credits": 4,
+      "prerequisites": ["NONE"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Mathematical Foundation"]
+    },
+    {
+      "id": "MAT-133",
+      "code": "MAT133",
+      "name": "Calculus II",
+      "credits": 4,
+      "prerequisites": ["MAT131"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Mathematical Foundation"]
+    },
+    {
+      "id": "MAT-215",
+      "code": "MAT215",
+      "name": "Linear Algebra",
+      "credits": 4,
+      "prerequisites": ["MAT133"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Mathematical Foundation"]
+    },
+    {
+      "id": "MAT-208",
+      "code": "MAT208",
+      "name": "Discrete Structures",
+      "credits": 4,
+      "prerequisites": ["MAT215"],
+      "offered": ["Spring"],
+      "level": ["Mathematical Foundation"]
+    },
+    {
+      "id": "MAT-218",
+      "code": "MAT218",
+      "name": "Discrete Bridge to Advanced Mathematics",
+      "credits": 4,
+      "prerequisites": ["MAT215"],
+      "offered": ["Fall", "Spring"],
+      "level": ["Mathematical Foundation"]
+    }
+  ]
+}

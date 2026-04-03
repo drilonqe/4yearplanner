@@ -1,0 +1,48 @@
+{
+  "major": {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "totalCredits": 32,
+    "description": "Requirements for the Computer Science major"
+  },
+  "requirements": {
+    "Introductory": [
+      "CSC151"
+    ],
+    "Multi-paradigm": [
+      "CSC161",
+      "CSC207"
+    ],
+    "Discrete Structures (one of)": [
+      "MAT208",
+      "CSC208",
+      "MAT218"
+    ],
+    "Systems": [
+      "CSC211",
+      "CSC213"
+    ],
+    "Upper-level Theory": [
+      "CSC301",
+      "CSC341"
+    ],
+    "Software Development": [
+      "CSC324"
+    ],
+    "electives": {
+      "credits": 4,
+      "allowedPrefixes": ["CSC"],
+      "minLevel": 200,
+      "excludedCourses": ["CSC281", "CSC282"],
+      "specialRules": {
+        "CSC326": { "maxCredits": 2 },
+        "CSC211_CSC213": { "maxCount": 1 }
+      }
+    },
+    "Math Foundations": {
+  "type": "level-based",
+  "prefix": "MAT",
+  "minLevel": 133
+}
+  }
+}
